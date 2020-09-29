@@ -1,12 +1,14 @@
 <template>
   <div class="hello">
-    <div class="my-home">我是个人中心</div>
+    <div class="header"></div>
+    <van-button type="primary">主要按钮</van-button>
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
-import { Button } from 'element-ui'
+import { Button } from 'vant'
+
 Vue.use(Button)
 
 export default {
@@ -25,9 +27,9 @@ export default {
 </script>
 
 <style scoped>
-.my-home {
-  width: 23.4375rem;
-  height: 23.4375rem;
-  background-color: aqua;
+.header {
+  width: 100%;
+  height: 20.875rem;
+  background-color: #33c9ae;
 }
 </style>
