@@ -2,6 +2,7 @@
   <div class="hello">
     <div class="header"></div>
     <van-button type="primary">主要按钮</van-button>
+    <div class="box"></div>
   </div>
 </template>
 
@@ -31,5 +32,10 @@ export default {
   width: 100%;
   height: 20.875rem;
   background-color: #33c9ae;
+}
+.box{
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color:red;
 }
 </style>

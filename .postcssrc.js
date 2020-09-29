@@ -9,7 +9,7 @@ module.exports = {
       browsers: ['Android >= 4.0', 'iOS >= 8'],
     },
     'postcss-pxtorem': {
-      rootValue: 75,
+      rootValue: 16,
       propList: ['*'],
       exclude:'/node_modules/'
     },
