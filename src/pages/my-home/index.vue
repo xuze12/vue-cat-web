@@ -51,23 +51,23 @@ export default {
 <style scoped>
 .header {
   width: 100%;
-  height: 10.4375rem;
+  height: 334px;
   background-color: #33c9ae;
 }
 .headset {
-  height: 2.1875rem;
+  height: 70px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 0.78125rem;
+  padding-right: 25px;
 }
 .headset-img {
-  width: 1.09375rem;
-  height: 1.09375rem;
+  width: 35px;
+  height: 35px;
 }
 .info {
-  height: 4.6875rem;
-  padding-left: 0.9375rem;
+  height: 130px;
+  padding-left: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,8 +78,8 @@ export default {
   align-items: center;
 }
 .info-head-portrait {
-  width: 4.0625rem;
-  height: 4.0625rem;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
 }
