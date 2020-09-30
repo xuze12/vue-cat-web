@@ -8,35 +8,35 @@
             <van-tab title="好友(23)">
                 <div class="group-top">
                     <div class="group">
-                        <van-image width="43" height="43" round fit="contain" :src="require('../../../img/group.png')" />
+                        <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//group.png')" />
                         <span class="group-right">我的群</span>
                     </div>
                     <div class="group">
-                        <van-image width="43" height="43" round fit="contain" :src="require('../../../img/secretary.png')" />
+                        <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//secretary.png')" />
                         <span class="group-right">开心猫秘书</span>
                     </div>
                     <div class="group">
-                        <van-image width="43" height="43" round fit="contain" :src="require('../../../img/blacklist.png')" />
+                        <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//blacklist.png')" />
                         <span class="group-right">黑名单</span>
                     </div>
                     <van-index-bar>
                         <van-index-anchor index="A" />
                         <div class="group">
-                            <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                            <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                             <span class="group-right">傲视小可</span>
                         </div>
                         <div class="group">
-                            <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                            <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                             <span class="group-right">傲视小可</span>
                         </div>
 
                         <van-index-anchor index="B" />
                         <div class="group">
-                            <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                            <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                             <span class="group-right">傲视小可</span>
                         </div>
                         <div class="group">
-                            <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                            <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                             <span class="group-right">傲视小可</span>
                         </div>
                     </van-index-bar>
@@ -46,12 +46,12 @@
             <van-tab title="关注(3)">
                 <div class="group-top">
                     <div class="group">
-                        <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                        <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                         <span class="group-right">傲视小可</span>
                         <van-button color="#f1f1f1f1" round class="group-but">已关注</van-button>
                     </div>
                     <div class="group">
-                        <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                        <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                         <span class="group-right">傲视小可</span>
                         <van-button color="#f1f1f1f1" round class="group-but">已关注</van-button>
                     </div>
@@ -60,12 +60,12 @@
             <van-tab title="粉丝(73)">
                 <div class="group-top">
                     <div class="group">
-                        <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                        <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                         <span class="group-right">傲视小可</span>
                         <van-button color="#16c8a8" round class="group-but">+关注</van-button>
                     </div>
                     <div class="group">
-                        <van-image width="43" height="43" round fit="contain" :src="require('../../../img/head_portrait.png')" />
+                        <van-image width="43" height="43" round fit="contain" :src="require('../../assets/images//head_portrait.png')" />
                         <span class="group-right">傲视小可</span>
                         <van-button color="#16c8a8" round class="group-but">+关注</van-button>
                     </div>

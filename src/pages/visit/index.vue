@@ -1,11 +1,14 @@
 <template>
 <div class="hello">
-    hello
+    <top :title='title' />
+    <visitContent :title='title' />
 </div>
 </template>
 
 <script>
 import Vue from 'vue'
+import Top from '../../components/TopTitle'
+import VisitContent from '../../components/VisitContent'
 import {
   Button
 } from 'vant'
@@ -14,9 +17,13 @@ Vue.use(Button)
 
 export default {
   name: 'visit',
+  components: {
+    Top,
+    VisitContent
+  },
   data () {
     return {
-      msg: ''
+      title: '来访'
     }
   },
   mounted () {},
